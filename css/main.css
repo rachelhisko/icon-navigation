@@ -12,8 +12,6 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font-family: "Abhaya Libre", serif;
-  background-color: #423ca3;
-  color: #fff;
 }
 
 *, *::before, *::after {
@@ -24,16 +22,31 @@ ul {
   display: inline-block;
 }
 
-li{
+li {
   background-color: #15114c;
   color: #fff;
   border-radius: 10px;
 
 }
+
 li:hover {
   background-color: #fff;
   color: #15114c;
+}
+
+header {
+  background-color: #423ca3;
+  color: #fff;
+}
 
 @media only screen and (min-width: 60em) {
+
+  nav {
+    text-align: right;
+  }
+
+  .logo {
+    text-align: left;
+  }
 
 }
