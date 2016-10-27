@@ -22,14 +22,16 @@ ul {
   display: inline-block;
 }
 
-li {
+.nav a {
   background-color: #15114c;
   color: #fff;
   border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
 
 }
 
-li:hover {
+.nav a:hover {
   background-color: #fff;
   color: #15114c;
 }
@@ -45,10 +47,6 @@ li:hover {
 
 .nav {
   text-align: center;
-}
-
-nav:hover {
-  background-color: #423ca3;
 }
 
 @media only screen and (min-width: 60em) {
