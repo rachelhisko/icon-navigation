@@ -47,6 +47,10 @@ li:hover {
   text-align: center;
 }
 
+nav:hover {
+  background-color: #423ca3;
+}
+
 @media only screen and (min-width: 60em) {
 
   .logo {
@@ -54,6 +58,10 @@ li:hover {
   }
 
   .nav {
+    text-align: right;
+  }
+
+  .unit {
     text-align: right;
   }
 
